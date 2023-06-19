@@ -38,3 +38,20 @@ Class variables **can** be overwritten.
 Be careful of class variables. 
 
 ![stage2_dog_class.png](stage2_dog_class.png)
+
+## The four pillars of OOP
+
+1. Encapsulation 
+2. Abstraction -> You don't always need to know how something works to use it.
+3. Inheritance -> Inherit the variables and methods from the parent class.
+4. Polymorphism
+
+To create a child from a class you can pass the child the parent class as a parameter. 
+example:
+```python
+class Reptile(Animal):
+
+    super().__init__()
+```
+
+The `super()` initialises the parent class - inherit everything from animal when you create reptile.
