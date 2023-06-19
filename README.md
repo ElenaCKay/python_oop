@@ -19,7 +19,7 @@ class Dog:
 
 `self` refers to the current class so in this case it is Dog.
 
-!["Dog classes image"](C:\Users\elena\PycharmProjects\tech241\python_oop\classes_dog_img.png)
+![classes_dog_img.png](classes_dog_img.png)
 
 ### Instantiation 
 
@@ -32,9 +32,9 @@ lassie = Dog()
 
 The type of fido is `<class '__main__.Dog'>`. A class. So fido and lassie have access to the same methods and variables that Dog() has. They are separate entities.
 
-!["Dog phase 1 image"](C:\Users\elena\PycharmProjects\tech241\python_oop\stage1_dog_class.png)
+![stage1_dog_class.png](stage1_dog_class.png)
 
 Class variables **can** be overwritten.
 Be careful of class variables. 
 
-!["Dog phase 2 img"](C:\Users\elena\PycharmProjects\tech241\python_oop\stage2_dog_class.png)
+![stage2_dog_class.png](stage2_dog_class.png)
