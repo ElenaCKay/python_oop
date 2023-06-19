@@ -16,5 +16,8 @@ class Snake(Reptile):
     def use_tongue_to_smell(self):
         print("Do I say it smells nice or tastes nice...?")
 
-
+sidney = Snake()
+# sidney.breathe() # Animal
+# sidney.seek_heat() # Reptile
+# sidney.use_tongue_to_smell() # Snake
 

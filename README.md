@@ -41,10 +41,10 @@ Be careful of class variables.
 
 ## The four pillars of OOP
 
-1. Encapsulation -> Classes are self-contained, hiding details from users.
+1. Encapsulation -> Classes are self-contained, hiding details from users. Used to protect important variables / objects. 
 2. Abstraction -> You don't always need to know how something works to use it.
 3. Inheritance -> Inherit the variables and methods from the parent class.
-4. Polymorphism -> 
+4. Polymorphism -> Methods can have the same name but act differently.
 
 To create a child from a class you can pass the child the parent class as a parameter. 
 example:
@@ -55,3 +55,13 @@ class Reptile(Animal):
 ```
 
 The `super()` initialises the parent class - inherit everything from animal when you create reptile.
+
+![animal_class_example.png](animal_class_example.png)
+
+
+### Types of modifiers in python:
+
+1. Public -> anyone, anywhere can use it
+2. Private -> Accessible only within the class itself __ 2 underscores for private e.g `__variable`
+3. Protected -> Accessible within the class and subclasses. _ 1 underscore for protected e.g `_variable`
+
