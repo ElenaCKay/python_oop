@@ -25,4 +25,5 @@ class Reptile(Animal):
 
 bulbasaur = Reptile()
 
-bulbasaur.seek_heat()
+# bulbasaur.seek_heat() # reptile method
+# bulbasaur.breathe() # animal method

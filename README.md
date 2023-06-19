@@ -41,10 +41,10 @@ Be careful of class variables.
 
 ## The four pillars of OOP
 
-1. Encapsulation 
+1. Encapsulation -> Classes are self-contained, hiding details from users.
 2. Abstraction -> You don't always need to know how something works to use it.
 3. Inheritance -> Inherit the variables and methods from the parent class.
-4. Polymorphism
+4. Polymorphism -> 
 
 To create a child from a class you can pass the child the parent class as a parameter. 
 example:
